@@ -1,0 +1,100 @@
+.main {
+  margin: 0 auto;
+  text-align: center;
+  background-color: azure;
+  width: 800px;
+  border: 1 solid blue;
+  border-radius: 10px;
+  padding: 20px;
+  height: 800px;
+}
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
+  margin: 0 auto;
+  width: 70%;
+  background-color: rgb(169, 210, 219);
+  height: 70%;
+  overflow-y: scroll;
+}
+
+.chat::-webkit-scrollbar {
+  display: none;
+}
+
+.chat .mychat {
+  width: auto;
+  text-align: right;
+  height: 30px;
+  font-size: 20px;
+  padding: 10px;
+  padding-top: 6px;
+  font-weight: 200;
+  margin-left: auto;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  border: black solid 1px;
+}
+
+.chat .youchat {
+  width: auto;
+  text-align: left;
+  height: 30px;
+  font-size: 20px;
+  padding: 10px;
+  padding-top: 6px;
+  font-weight: 200;
+  margin-right: auto;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  border: black solid 1px;
+}
+
+.chat .connect {
+  width: auto;
+  text-align: center;
+  height: 30px;
+  font-size: 20px;
+  padding: 10px;
+  padding-top: 6px;
+  font-weight: 300;
+  background-color: rgb(181, 183, 184);
+  border-radius: 10px;
+  border: black solid 1px;
+}
+
+.chat .disconnect {
+  width: auto;
+  text-align: center;
+  height: 30px;
+  font-size: 20px;
+  padding: 10px;
+  padding-top: 6px;
+  font-weight: 300;
+  background-color: rgb(236, 185, 185);
+  border-radius: 10px;
+  border: black solid 1px;
+}
+
+.chat-input {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.chat-input input {
+  font-size: 16px;
+  padding: 10px;
+  width: 300px;
+  border-radius: 20px;
+}
+
+.chat-input button {
+  font-weight: bold;
+  color: white;
+  background-color: rgb(97, 110, 112);
+  width: 50px;
+}
